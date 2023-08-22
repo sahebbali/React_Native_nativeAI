@@ -13,8 +13,8 @@ function AppNavigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown:false}}>
-        <Stack.Screen name="wellcome" component={WellcomePage} />
         <Stack.Screen name="Home" component={HomePage} />
+        <Stack.Screen name="wellcome" component={WellcomePage} />
 
       </Stack.Navigator>
     </NavigationContainer>
